@@ -8,4 +8,55 @@
   background: linear-gradient(270deg, #6BD3EB 0%, #2293B0 100%);
   width: 100%;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.workspace2 .analogic-clock {
+  width: 40vw;
+  height: 40vw;
+  background-image: linear-gradient(70deg, rgb(168, 164, 164), white);
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  position: relative;
+}
+.workspace2 .analogic-clock .hr,
+.workspace2 .analogic-clock .min,
+.workspace2 .analogic-clock .sec {
+  width: 1%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  transform-origin: bottom;
+  z-index: 2;
+  border-radius: 2em;
+}
+.workspace2 .analogic-clock .pin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1em;
+  height: 1em;
+  background: rgb(38, 0, 255);
+  border: 2px solid #ffffff;
+  border-radius: 10em;
+  margin: auto;
+  z-index: 10;
+}
+.workspace2 .analogic-clock .hr {
+  height: 25%;
+  background-color: #000000;
+}
+.workspace2 .analogic-clock .min {
+  height: 30%;
+  background-color: #000000;
+}
+.workspace2 .analogic-clock .sec {
+  height: 40%;
+  background-color: #db3939;
+  transform-origin: 50% 85%;
 }/*# sourceMappingURL=main.css.map */
