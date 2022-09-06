@@ -21,6 +21,18 @@
         border-radius: 20px;
         box-shadow: 0 4px 4px black;
         opacity: 0.8;
+        position: relative;
+
+        .calendar {
+            position: absolute;
+            top: 25px;
+            right: 30px;
+            text-align: end;
+
+            .content {
+                display: flex;
+            }
+        }
 
         .mainContent {
             width: 435px;
