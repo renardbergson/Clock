@@ -45,7 +45,7 @@
             font-size: 80pt;
 
             .hours {
-                width: 25%;
+                width: 30%;
                 text-align: center;
             }
 
@@ -54,14 +54,14 @@
             }
 
             .minutes {
-                width: 25%;
-                text-align: center;
+                width: 30%;
+                //text-align: center;
             }
 
             .seconds {
                 width: 15%;
                 font-size: 45pt;
-                margin: 32px 0 0 7%;
+                margin: 32px 0 0 0;
             }
         }
     }
