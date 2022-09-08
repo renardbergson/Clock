@@ -35,8 +35,10 @@ let day = new Date();
 
 let month = day.toLocaleString("en-US", { month: "short" });
 
-let dayMonth = day.getDay();
+let dayMonth = day.getDate();
 
-document.getElementById("day-of-the-weeek").innerHTML = week[day.getDay()];
+document.getElementById("day-of-the-week").innerHTML = week[day.getDay()];
 
 document.getElementById("month").innerHTML = month;
+
+document.getElementById("day-of-month").innerHTML = dayMonth;
