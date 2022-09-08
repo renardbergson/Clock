@@ -36,7 +36,7 @@
         }
 
         .mainContent {
-            width: 435px;
+            width: 70%;
             height: 230px;
             //border: 1px solid black;
             margin: 0 auto;
@@ -45,13 +45,24 @@
             align-items: center;
             font-size: 80pt;
 
+            .hours {
+                width: 25%;
+                text-align: center;
+            }
+
             .dots {
-                margin: 0 25px;
+                margin: 0 2%;
+            }
+
+            .minutes {
+                width: 25%;
+                text-align: center;
             }
 
             .seconds {
+                width: 15%;
                 font-size: 45pt;
-                margin: 30px 0 0 25px;
+                margin: 30px 0 0 1%;
             }
         }
     }
