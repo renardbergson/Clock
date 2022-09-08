@@ -11,8 +11,7 @@
 
     .digitalClock {
         font-family: 'Rubik', sans-serif;
-        width: 695px;
-        height: 230px;
+        width: 650px;
         background-color: #ffffff;
         position: absolute;
         top: 50%;
@@ -37,7 +36,7 @@
 
         .mainContent {
             width: 70%;
-            height: 230px;
+            height: 200px;
             //border: 1px solid black;
             margin: 0 auto;
             display: flex;
@@ -62,7 +61,7 @@
             .seconds {
                 width: 15%;
                 font-size: 45pt;
-                margin: 32px 0 0 5%;
+                margin: 32px 0 0 7%;
             }
         }
     }
