@@ -74,27 +74,38 @@
   text-transform: uppercase;
   font-size: 1.2rem;
   padding: 4px 0;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 .workspace2 .calendar #day-of-the-week {
   background-color: rgb(255, 144, 103);
   color: rgb(170, 35, 35);
   padding: 4px 16px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 .workspace2 .calendar #day-of-month {
   background-color: white;
   height: 80px;
   font-size: 4rem;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 .workspace2 .analogic-clock {
-  width: 35vw;
-  height: 35vw;
-  background-image: linear-gradient(70deg, rgb(168, 164, 164), white);
+  width: 30vw;
+  height: 30vw;
+  background-image: url("/images/clock.png");
   background-size: cover;
+  background-color: white;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 50%;
   position: relative;
   display: flex;
   justify-content: center;
+  align-content: center;
+  border: 10px solid black;
 }
 .workspace2 .analogic-clock .hr,
 .workspace2 .analogic-clock .min,
@@ -134,57 +145,4 @@
   height: 40%;
   background-color: #db3939;
   transform-origin: 50% 85%;
-}
-.workspace2 .analogic-clock .numbers {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-  font-family: "Rubik", sans-serif;
-  font-size: 1.2rem;
-  padding: 8px 8px;
-}
-.workspace2 .analogic-clock .numbers .first-line {
-  width: 30vw;
-  display: flex;
-  justify-content: center;
-  margin-top: 8px;
-}
-.workspace2 .analogic-clock .numbers .centeredNumbers {
-  height: 27vw;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-  margin: 8px 0;
-}
-.workspace2 .analogic-clock .numbers .centeredNumbers .second-line {
-  width: 20vw;
-  display: flex;
-  justify-content: space-between;
-}
-.workspace2 .analogic-clock .numbers .centeredNumbers .third-line {
-  width: 30vw;
-  display: flex;
-  justify-content: space-between;
-}
-.workspace2 .analogic-clock .numbers .centeredNumbers .fourth-line {
-  width: 32vw;
-  display: flex;
-  justify-content: space-between;
-}
-.workspace2 .analogic-clock .numbers .centeredNumbers .fiveth-line {
-  width: 29vw;
-  display: flex;
-  justify-content: space-between;
-}
-.workspace2 .analogic-clock .numbers .centeredNumbers .sixth-line {
-  width: 20vw;
-  display: flex;
-  justify-content: space-between;
-}
-.workspace2 .analogic-clock .numbers .seventh-line {
-  margin-bottom: 8px;
 }/*# sourceMappingURL=main.css.map */
