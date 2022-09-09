@@ -28,6 +28,7 @@ setInterval(() => {
         `translate(-50%,-85%) rotate(${secrotation}deg)`
 });
 
+
 let week = ["Monday", "Sunday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 
