@@ -151,4 +151,25 @@
   height: 40%;
   background-color: #db3939;
   transform-origin: 50% 85%;
+}
+.workspace2 .swipeButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+.workspace2 .swipeButtons .leftButton {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.workspace2 .swipeButtons .rightButton {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  margin-left: 8px;
+  background: #A3E9FF;
+  box-shadow: 0px 0px 10px #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
