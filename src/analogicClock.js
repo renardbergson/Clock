@@ -45,18 +45,18 @@ document.getElementById("month").innerHTML = month;
 document.getElementById("day-of-month").innerHTML = dayMonth;
 
 // getting current hour
-var currentTime = new Date().getHours();
+let currentTime = new Date().getHours();
 
 // code to update the background according to hour of the day"
 if (6 <= currentTime && currentTime < 12) {
 
-    document.body.style.background = "linear-gradient(270deg, #6BD3EB  0%, #2293B0 100%)";
+    document.body.style.background = "linear-gradient(270deg, #2293B0 0%, #6BD3EB 100%)";
 
-}else if (12 <= currentTime && currentTime < 18) {
+} else if (12 <= currentTime && currentTime < 18) {
 
-    document.body.style.background = "linear-gradient(270deg, #DE6362  0%, #FEB78B  100%);";
+    document.body.style.background = "linear-gradient(270deg, #DE6362  0%, #FEB78B  100%)";
 
-}else {
+} else {
 
     document.body.style.background = "linear-gradient(270deg, #141E30 0%,  #243B55 100%)";
 
