@@ -55,6 +55,27 @@
   font-size: 45pt;
   margin: 32px 0 0 0;
 }
+.workspace .swipeButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+.workspace .swipeButtons .leftButton {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.workspace .swipeButtons .rightButton {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  margin-left: 8px;
+  background: #A3E9FF;
+  box-shadow: 0px 0px 10px #FFFFFF;
+}
 
 .workspace2 {
   width: 100%;
