@@ -51,13 +51,16 @@ let currentTime = new Date().getHours();
 if (6 <= currentTime && currentTime < 12) {
 
     document.body.style.background = "linear-gradient(270deg, #2293B0 0%, #6BD3EB 100%)";
+    document.querySelector(".rightButton").style.background = "#A3E9FF";
 
 } else if (12 <= currentTime && currentTime < 18) {
 
     document.body.style.background = "linear-gradient(270deg, #DE6362  0%, #FEB78B  100%)";
+    document.querySelector(".rightButton").style.background = "#FF4D00";
 
 } else {
 
     document.body.style.background = "linear-gradient(270deg, #141E30 0%,  #243B55 100%)";
+    document.querySelector(".rightButton").style.background = "#4980E2";
 
 }
