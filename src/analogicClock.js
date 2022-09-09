@@ -28,6 +28,7 @@ setInterval(() => {
         `translate(-50%,-85%) rotate(${secrotation}deg)`
 });
 
+
 let week = ["Monday", "Sunday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 
@@ -42,3 +43,10 @@ document.getElementById("day-of-the-week").innerHTML = week[day.getDay()];
 document.getElementById("month").innerHTML = month;
 
 document.getElementById("day-of-month").innerHTML = dayMonth;
+
+function changingBackground (hour) {
+    if (hour <= 12) {
+        document.querySelector(body)
+    }
+}
+
