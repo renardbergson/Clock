@@ -66,15 +66,14 @@
   width: 8px;
   height: 8px;
   border-radius: 10px;
-  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px #FFFFFF;
 }
 .workspace .swipeButtons .rightButton {
   width: 8px;
   height: 8px;
   border-radius: 10px;
   margin-left: 8px;
-  background: #A3E9FF;
-  box-shadow: 0px 0px 10px #FFFFFF;
+  background-color: rgb(255, 255, 255);
 }
 
 .workspace2 {

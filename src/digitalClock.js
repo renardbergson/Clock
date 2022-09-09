@@ -36,11 +36,15 @@ let currentTime = new Date().getHours()
 if (6 <= currentTime && currentTime < 12) {
 
     document.body.style.background = 'linear-gradient(270deg, #6BD3EB  0%, #2293B0 100%)'
+    document.querySelector('.leftButton').style.background = '#A3E9FF'
 
 }else if (12 <= currentTime && currentTime < 18) {
 
     document.body.style.background = 'linear-gradient(270deg, #FEB78B 0%, #DE6362 100%)'
+    document.querySelector('.leftButton').style.background = '#FF4D00'
 
 }else {
 
-    document.body.style.background = 'linear-gradient(270deg, #243B55 0%, #141E30 100%)'}
+    document.body.style.background = 'linear-gradient(270deg, #243B55 0%, #141E30 100%)'
+    document.querySelector('.leftButton').style.background = '#4980E2'
+}

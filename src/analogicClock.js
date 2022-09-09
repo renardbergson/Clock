@@ -62,5 +62,4 @@ if (6 <= currentTime && currentTime < 12) {
 
     document.body.style.background = "linear-gradient(270deg, #141E30 0%,  #243B55 100%)";
     document.querySelector(".rightButton").style.background = "#4980E2";
-
 }
