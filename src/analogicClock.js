@@ -43,7 +43,10 @@ document.getElementById("month").innerHTML = month;
 
 document.getElementById("day-of-month").innerHTML = dayMonth;
 
+// getting current hour
 var currentTime = new Date().getHours();
+
+// code to update the background according to hour of the day"
 if (6 <= currentTime && currentTime < 12) {
 
     document.body.style.background = "linear-gradient(270deg, #6BD3EB  0%, #2293B0 100%)";
