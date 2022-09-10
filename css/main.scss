@@ -210,9 +210,10 @@ body {
 .sliderButtons {
     display: flex;
     position: absolute;
-    bottom: 20%;
+    bottom: 25%;
     left: 50%;
     transform: translateX(-50%);
+    transition: 500ms;
 
     label {
         display: block;

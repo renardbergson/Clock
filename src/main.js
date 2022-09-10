@@ -5,12 +5,14 @@ const $checkbox2 = document.querySelector('#checkbox2')
 $checkbox1.addEventListener('click', () => {
     if ($checkbox1.checked === true) {
         document.querySelector('.digitalClock').style.marginLeft = '0'
+        document.querySelector('.sliderButtons').style.bottom = '25%'
     }
 })
 
 $checkbox2.addEventListener('click', () => {
    if ($checkbox2.checked === true) {
     document.querySelector('.digitalClock').style.marginLeft = '-101%'
+    document.querySelector('.sliderButtons').style.bottom = '15%'
    }
 })
 
