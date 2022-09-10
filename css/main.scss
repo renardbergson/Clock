@@ -4,16 +4,9 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-
-.workspace {
-    height: 100vh;
-=======
 body {
->>>>>>> 87722c72ba311dd63b24c3288a90ad0b7bf0b214
     width: 100%;
     height: 100vh;
-    background: linear-gradient(270deg, #2293B0 0%, #6BD3EB 100%);
 }
 
 .radioButtons {
@@ -28,8 +21,8 @@ body {
 }
 
 .slider {
-    height: 280px;
-    width: 650px;
+    height: 400px;
+    width: 1000px;
     //border: 2px solid black;
     position: absolute;
     top: 50%;
@@ -42,7 +35,7 @@ body {
 
     .digitalClock {
         font-family: 'Rubik', sans-serif;
-        width: 650px;
+        width: 80%;
         background-color: #ffffff;
         position: absolute;
         top: 50%;
@@ -93,76 +86,131 @@ body {
             .seconds {
                 width: 15%;
                 font-size: 45pt;
-                margin: 25px 0 0 0;
+                margin: 30px 0 0 16px;
             }
         }
     }
 
-    .analogic-clock {
-        width: 280px;
-        height: 280px;
-        background-image: url("/images/clock.png");
-        background-size:cover;
-        background-color: white;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 50%;
-        position: relative;
+    .workspace2 {
+        width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-content: center;
-        border: 10px solid black;
-
-        .hr,
-        .min,
-        .sec {
-            width: 1%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -100%);
-            transform-origin: bottom;
-            z-index: 2;
-            border-radius: 2em;
-        }
-
-        .pin {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: 1em;
-            height: 1em;
-            background: rgb(0, 0, 0);
-            border: 2px solid #a5a4a4;
-            border-radius: 10em;
-            margin: auto;
-            z-index: 10;
-        }
-
-        .hr {
-            height: 25%;
-            background-color: #000000;
-        }
-          
-        .min {
-            height: 30%;
-            background-color: #000000;
-        }
-          
-        .sec {
-            height: 40%;
-            background-color: #db3939;
-            transform-origin: 50% 85%;
-        }
+        align-items: center;
         
-    }
+     
+         .calendar {
+            width: 100px;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            text-align: center;
+            top: 100px;
+            left: 200px;
+            margin-bottom: 8px;
+            font-family: 'Rubik', sans-serif;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     
+             #month {
+                 background-color: #db3939;
+                 color: white;            
+                 text-transform: uppercase;
+                 font-size: 1rem;
+                 padding: 4px 0;
+                 border-top: 1px solid black;
+                 border-left: 1px solid black;
+                 border-right: 1px solid black;
+             }
+     
+             #day-of-the-week {
+                 background-color: rgb(255, 144, 103);
+                 color: rgb(170, 35, 35);
+                 padding: 4px 16px;
+                 border-left: 1px solid black;
+                 border-right: 1px solid black;
+                
+             }
+     
+             #day-of-month {
+                 background-color: white;
+                 display:flex;
+                 justify-content: center;
+                 flex-direction: column;
+                 height: 4rem;
+                 font-size: 3rem;
+                 border-bottom: 1px solid black;
+                 border-left: 1px solid black;
+                 border-right: 1px solid black;
+             }
+         }
+     
+         .analogic-clock {
+             width: 250px;
+             height: 250px;
+             background-image: url("/images/clock.png");
+             background-size:cover;
+             background-color: white;
+             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+             border-radius: 50%;
+             position: relative;
+             display: flex;
+             justify-content: center;
+             align-content: center;
+             border: 3px solid black;
+     
+             .hr,
+             .min,
+             .sec {
+                 width: 1%;
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%, -100%);
+                 transform-origin: bottom;
+                 z-index: 2;
+                 border-radius: 2em;
+             }
+     
+             .pin {
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 right: 0;
+                 bottom: 0;
+                 width: 1em;
+                 height: 1em;
+                 background: rgb(0, 0, 0);
+                 border: 2px solid #a5a4a4;
+                 border-radius: 10em;
+                 margin: auto;
+                 z-index: 10;
+             }
+     
+             .hr {
+                 height: 25%;
+                 background-color: #000000;
+             }
+               
+             .min {
+                 height: 30%;
+                 background-color: #000000;
+             }
+               
+             .sec {
+                 height: 40%;
+                 background-color: #db3939;
+                 transform-origin: 50% 85%;
+             }
+             
+         }     
+     
+     }
 }
 
 .sliderButtons {
     display: flex;
     position: absolute;
-    top: 70%;
+    bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
 
@@ -180,145 +228,4 @@ body {
             cursor: pointer;
         }
     }
-}
-
-
-
-
-
-
-
-
-.workspace2 {
-   // background: linear-gradient(270deg, #2293B0 0%, #6BD3EB 100%);
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .calendar {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 30%;
-        margin-bottom: 0;
-        font-family: 'Rubik', sans-serif;
-
-        #month {
-            background-color: #db3939;
-            color: white;            
-            text-transform: uppercase;
-            font-size: 1.2rem;
-            padding: 4px 0;
-            border-top: 1px solid black;
-            border-left: 1px solid black;
-            border-right: 1px solid black;
-        }
-
-        #day-of-the-week {
-            background-color: rgb(255, 144, 103);
-            color: rgb(170, 35, 35);
-            padding: 4px 16px;
-            border-left: 1px solid black;
-            border-right: 1px solid black;
-           
-        }
-
-        #day-of-month {
-            background-color: white;
-            height: 80px;
-            font-size: 4rem;
-            border-bottom: 1px solid black;
-            border-left: 1px solid black;
-            border-right: 1px solid black;
-        }
-    }
-
-    .analogic-clock {
-        width: 30vw;
-        height: 30vw;
-        background-image: url("/images/clock.png");
-        background-size:cover;
-        background-color: white;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 50%;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        border: 10px solid black;
-
-        .hr,
-        .min,
-        .sec {
-            width: 1%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -100%);
-            transform-origin: bottom;
-            z-index: 2;
-            border-radius: 2em;
-        }
-
-        .pin {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: 1em;
-            height: 1em;
-            background: rgb(0, 0, 0);
-            border: 2px solid #a5a4a4;
-            border-radius: 10em;
-            margin: auto;
-            z-index: 10;
-        }
-
-        .hr {
-            height: 25%;
-            background-color: #000000;
-        }
-          
-        .min {
-            height: 30%;
-            background-color: #000000;
-        }
-          
-        .sec {
-            height: 40%;
-            background-color: #db3939;
-            transform-origin: 50% 85%;
-        }
-        
-    }
-
-    .swipeButtons {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: 24px;
-
-        .leftButton {
-            width: 8px;
-            height: 8px;
-            border-radius: 10px;
-            background-color: rgb(255, 255, 255);
-        }
-
-        .rightButton {
-            width: 8px;
-            height: 8px;
-            border-radius: 10px;
-            margin-left: 8px;
-           
-            box-shadow: 0px 0px 10px #FFFFFF;
-        }
-    }
-
 }
