@@ -4,7 +4,7 @@
 
 <strong>DESCRIPTION<strong> A clock that allows the user switch between a digital and analogic layout. It counts with a calendar and buttons to switch both layouts and the background changes according to the hour of the day.
 
-<img src="/images/presentation.png" href="https://lincoln-araujo.github.io/Interactive-card-details-form/" target="_blank">
+<img src="./images/presentation.png" href="https://lincoln-araujo.github.io/Interactive-card-details-form/" target="_blank">
 
 ## Take a look at this project in action:
 
