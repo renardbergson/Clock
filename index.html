@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Clock</title>
+</head>
+<body> 
+    <div class="radioButtons">
+        <input type="radio" name="slide" id="checkbox1" checked>
+        <input type="radio" name="slide" id="checkbox2">
+    </div>
+
+    <div class="slider">
+        <div class="digitalClock">
+            <div class="calendar">
+                <p class="weekDay">Monday</p>
+                <div class="content">
+                    <p class="day"> <!-- code from JS --> </p>
+                    <p class="month"> <!-- code from JS --> </p>
+                    <p class="year">2022</p>
+                </div>
+            </div>
+
+            <div class="mainContent">
+                <p class="hours"> -- </p>
+                <p class="dots">:</p>
+                <p class="minutes"> -- </p>
+                <p class="seconds"> -- </p>
+            </div>
+        </div>
+
+        <div class="analogic-clock">
+            <div class="hr"></div>
+            <div class="min"></div>
+            <div class="sec"></div>
+            <div class="pin"></div>            
+        </div>
+    </div>
+
+    <div class="sliderButtons">
+        <label class="btn1" for="checkbox1"></label>
+        <label class="btn2" for="checkbox2"></label>
+    </div>
+    
+    <script src="src/main.js"></script>
+</body>
+</html>
