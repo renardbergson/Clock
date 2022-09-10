@@ -153,6 +153,7 @@ body {
 }
 .sliderButtons label:hover {
   box-shadow: 0 0 10px white;
+  cursor: pointer;
 }
 
 .workspace2 {
