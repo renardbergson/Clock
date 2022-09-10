@@ -1,52 +1,120 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Clock</title>
+
+    <meta 
+        http-equiv="X-UA-Compatible" 
+        content="IE=edge">
+
+    <meta 
+        name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+
+    <link 
+        rel="stylesheet" 
+        href="css/main.css">
+
+    <title>
+        Clock
+    </title>
+
 </head>
+
 <body> 
+
+    <!-- buttons to switch the clocks-->
     <div class="radioButtons">
-        <input type="radio" name="slide" id="checkbox1" checked>
-        <input type="radio" name="slide" id="checkbox2">
+
+        <input 
+            type="radio" 
+            name="slide" 
+            id="checkbox1" 
+            checked>
+
+        <input 
+            type="radio" 
+            name="slide" 
+            id="checkbox2">
     </div>
 
+    <!-- main content -->
     <div class="slider">
+
         <div class="digitalClock">
+
             <div class="calendar">
-                <p class="weekDay">Monday</p>
+
+                <p class="weekDay"></p>
+
                 <div class="content">
-                    <p class="day"> <!-- code from JS --> </p>
-                    <p class="month"> <!-- code from JS --> </p>
-                    <p class="year"><!-- code from JS --></p>
+
+                    <p class="day"> 
+                        <!-- code from JS --> 
+                    </p>
+
+                    <p class="month">
+                         <!-- code from JS --> 
+                    </p>
+
+                    <p class="year">
+                        <!-- code from JS -->
+                    </p>
+
                 </div>
+
             </div>
 
             <div class="mainContent">
-                <p class="hours"> -- </p>
-                <p class="dots">:</p>
-                <p class="minutes"> -- </p>
-                <p class="seconds"> -- </p>
+
+                <p class="hours"> 
+                    -- 
+                </p>
+
+                <p class="dots">
+                    :
+                </p>
+
+                <p class="minutes"> 
+                    -- 
+                </p>
+
+                <p class="seconds"> 
+                    -- 
+                </p>
+
             </div>
+
         </div>
 
         <div class="workspace2">
+
             <div class="calendar">
+
                 <div id="month"></div>
+
                 <div id="day-of-the-week"></div>
+
                 <div id="day-of-month"></div>
+
             </div>
             
             <div class="analogic-clock">
+
                 <div class="hr"></div>
+
                 <div class="min"></div>
+
                 <div class="sec"></div>
+
                 <div class="pin"></div>            
             </div>
             
         </div>
+        
     </div>
 
     <div class="sliderButtons">
@@ -54,6 +122,9 @@
         <label class="btn2" for="checkbox2"></label>
     </div>
     
+    <!--script file-->
     <script src="src/main.js"></script>
+
 </body>
+
 </html>
