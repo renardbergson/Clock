@@ -41,7 +41,7 @@ Este é um pequeno preview de demonstração do relógio em funcionamento <br>
 ![](https://github.com/renardbergson/relogio/blob/main/images/gif-relogio.gif) 
 
 ### Links
-  •	[Live link do projeto](https://renardbergson.github.io/relogio/) <br>
+  •	[Live link do projeto](https://relogio-rb.netlify.app) <br>
   •	[Repositório Original](https://github.com/Lincoln-Araujo/Clock)
 
 ### Autores
